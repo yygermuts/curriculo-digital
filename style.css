@@ -1,0 +1,189 @@
+/*=============================SEÇÃO TAGS=============================*/
+
+/*=============================GLOBAL STYLES=============================*/
+
+body {
+    padding-top: 7rem;
+    font-size: 62.5%;
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(to bottom, #022a41, #135581, #3580b3);
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    margin: auto;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 4rem;
+    color: #59a8dd;
+}
+
+h2 {
+    padding: 0 2rem;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3rem;
+    color: #6cc1d6;
+}
+
+p {
+    padding: 0 2rem;
+    font-size: 30px;
+    color: #000000;
+    line-height: 30px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+hr {
+    background-color: #022a41;
+    color: #084352;
+    width: 100%;
+    height: 5px;
+    border: none;
+}
+
+/*=============================HEADER=============================*/
+
+header.top-container {
+    background-color: #201e43;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Opcional: adiciona uma sombra para destaque */
+    z-index: 1000; /* Certifica que o header ficará acima de outros elementos */
+    padding: 10px 0; /* Ajuste o padding conforme necessário */
+}
+
+/*=============================MAIN CONTENT=============================*/
+
+main.middle-container {
+    padding-top: 51px;
+}
+
+.profile img {
+    margin-top: 50px;
+    padding-top: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+/*=============================CONTACT ME=============================*/
+
+.contact-me {
+    background-color: #084352;
+    padding: 2rem;
+    padding-top: 1px;
+    border-bottom: 20px;
+}
+
+h2.footer {
+    margin-bottom: -4px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3rem;
+    color: #6cc1d6;
+}
+
+footer.bottom-container p {
+    font-size: 2rem;
+}
+
+div.contact-me img {
+    max-width: 4rem;
+    width: 4rem;
+    padding: 0rem;
+    transition: transform 0.3s;
+}
+
+div.contact-me img:hover {
+    transform: scale(1.2);
+}
+
+div.contact-me p {
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+/*=============================CONTACT ICONS=============================*/
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre os ícones */
+    margin-top: 0; /* Espaçamento superior */
+}
+
+.contact-icons a {
+    display: inline-block;
+}
+
+.contact-icons img {
+    width: 40px; /* Ajuste o tamanho conforme necessário */
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.contact-icons a:hover img {
+    transform: scale(1.2); /* Aumenta o tamanho do ícone ao passar o mouse */
+}
+
+span.github img {
+    width: 5rem;
+    height: 5rem;
+    padding-top: 4px;
+    transition: transform 0.3s;
+}
+
+span.linkedin img {
+    width: 4rem;
+    height: 4rem;
+    padding-top: 18%;
+    transition: transform 0.3s;
+}
+
+/*=============================PROJECTS=============================*/
+
+div.projetos a {
+    font-size: 2rem;
+}
+
+div.projetos img {
+    width: 7rem;
+}
+
+div.projetos-imagens {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+div.projetos-imagens img {
+    transition: transform 0.3s;
+}
+
+div.projetos-imagens img:hover {
+    transform: scale(1.2);
+}
+
+/*=============================FOOTER=============================*/
+
+footer {
+    border: 0;
+    margin-top: -1.9rem;
+    margin-bottom: -1.9rem;
+    background-color: #201e43d2;
+}
+
+.copyright {
+    color: #59a8dd;
+}
